@@ -74,10 +74,10 @@ function App() {
   ])
   return (
     <div className="w-screen h-auto bg-[#F2F2E7]">
-      <div className="w-full h-screen max-[1200px]:py-10 max-[1200px]:h-auto rounded-b-[100px] max-[1200px]:rounded-b-[50px] flex px-10 max-[1200px]:px-5 bg-[#686C53] max-[1200px]:flex-col max-[1200px]:items-center">
+      <div className="w-full h-[800px] max-[1200px]:py-10 max-[1200px]:h-auto rounded-b-[100px] max-[1200px]:rounded-b-[50px] flex px-10 max-[1200px]:px-5 bg-[#686C53] max-[1200px]:flex-col max-[1200px]:items-center">
         <div className='static hidden max-[1200px]:block'>
           <div className='w-full h-[300px] mt-[100px] rounded-br-[100px] rounded-tl-[100px] bg-[#F5F5DC]'></div>
-          <img className='w-[380px] h-auto mt-[-145%]' src={Foto1} alt="Valesca-Soares" />
+          <img className='w-[380px] h-auto mt-[-500px] max-[450px]:mt-[-420px]' src={Foto1} alt="Valesca-Soares" />
         </div>
         <div className='hidden max-[1200px]:block text-white'>
           <h1 className='max-[1200px]:w-screen font-extrabold text-3xl'>
