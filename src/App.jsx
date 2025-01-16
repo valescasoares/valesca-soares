@@ -74,12 +74,25 @@ function App() {
   ])
   return (
     <div className="w-screen h-auto bg-[#F2F2E7]">
-      <div className="w-screen h-screen max-[1200px]:py-10 max-[1200px]:h-auto rounded-b-[100px] max-[1200px]:rounded-b-[50px] flex px-10 bg-[#686C53] max-[1200px]:flex-col max-[1200px]:items-center">
+      <div className="w-full h-screen max-[1200px]:py-10 max-[1200px]:h-auto rounded-b-[100px] max-[1200px]:rounded-b-[50px] flex px-10 max-[1200px]:px-5 bg-[#686C53] max-[1200px]:flex-col max-[1200px]:items-center">
         <div className='static hidden max-[1200px]:block'>
           <div className='w-full h-[300px] mt-[100px] rounded-br-[100px] rounded-tl-[100px] bg-[#F5F5DC]'></div>
           <img className='w-[380px] h-auto mt-[-145%]' src={Foto1} alt="Valesca-Soares" />
         </div>
-        <div className='pt-[200px] max-[1200px]:pt-[100px] max-[1200px]:px-2 max-[1200px]:w-screen pl-10 text-white'>
+        <div className='hidden max-[1200px]:block text-white'>
+          <h1 className='max-[1200px]:w-screen font-extrabold text-3xl'>
+            Quer fortalecer seu relacionamento e evitar que os problemas se
+            agravem?
+          </h1>
+          <p className='w-[750px] max-[700px]:w-screen text-2xl mb-10'>
+            Através de ferramentas e estratégias eficazes, podemos te ajudar a construir uma relação mais sólida e feliz.
+          </p>
+          <a className='bg-[#434638] py-1 flex justify-center items-center rounded-[100px] text-2xl font-bold text-[#7AD06D] hover:shadow-md hover:shadow-[#7AD06D]' target='_blank' href="https://wa.me/5511940530360?text=Ol%C3%A1,%20fiquei%20interessado(a)%20em%20seu%20servi%C3%A7o!">
+            ENTRE EM CONTATO
+            <img className='size-[50px]' src={contato} alt="Clique-para-contato" />
+          </a>
+        </div>
+        <div className='max-[1200px]:hidden pt-[200px] max-[1200px]:px-2 max-[1200px]:w-screen pl-10 text-white'>
           <h1 className='w-[800px] max-[1200px]:w-screen font-extrabold text-4xl max-[1200px]:text-3xl max-[1200px]:px-2'>
             Quer fortalecer seu relacionamento e evitar que os problemas se
             agravem?
