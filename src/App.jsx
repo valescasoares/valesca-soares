@@ -77,7 +77,7 @@ function App() {
       <div className="w-screen h-screen max-[1200px]:py-10 max-[1200px]:h-auto rounded-b-[100px] max-[1200px]:rounded-b-[50px] flex px-10 bg-[#686C53] max-[1200px]:flex-col max-[1200px]:items-center">
         <div className='static hidden max-[1200px]:block'>
           <div className='w-full h-[300px] mt-[100px] rounded-br-[100px] rounded-tl-[100px] bg-[#F5F5DC]'></div>
-          <img className='w-[380px] mt-[-145%]' src={Foto1} alt="Valesca-Soares" />
+          <img className='w-[380px] h-auto mt-[-145%]' src={Foto1} alt="Valesca-Soares" />
         </div>
         <div className='pt-[200px] max-[1200px]:pt-[100px] max-[1200px]:px-2 max-[1200px]:w-screen pl-10 text-white'>
           <h1 className='w-[800px] max-[1200px]:w-screen font-extrabold text-4xl max-[1200px]:text-3xl max-[1200px]:px-2'>
