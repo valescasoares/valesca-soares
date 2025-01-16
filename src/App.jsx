@@ -20,26 +20,32 @@ function App() {
   const [feedbacks, setFeedbacks] = useState([
     {
       id: 1,
+      alt: "FeedBacks de clientes",
       image: fb1
     },
     {
       id: 2,
+      alt: "FeedBacks de clientes",
       image: fb2
     },
     {
       id: 3,
+      alt: "FeedBacks de clientes",
       image: fb3
     },
     {
       id: 4,
+      alt: "FeedBacks de clientes",
       image: fb4
     },
     {
       id: 5,
+      alt: "FeedBacks de clientes",
       image: fb5
     },
     {
       id: 6,
+      alt: "FeedBacks de clientes",
       image: fb6
     }
   ])
@@ -81,9 +87,9 @@ function App() {
           <p className='w-[750px] max-[700px]:w-screen text-4xl max-[1200px]:text-2xl mb-10 max-[1200px]:px-2'>
             Através de ferramentas e estratégias eficazes, podemos te ajudar a construir uma relação mais sólida e feliz.
           </p>
-          <a className='bg-white py-3 max-[1200px]:py-1 flex justify-center items-center rounded-[100px] text-4xl max-[1200px]:text-2xl font-bold text-[#7AD06D]' href="">
+          <a className='bg-[#434638] py-3 max-[1200px]:py-1 flex justify-center items-center rounded-[100px] text-4xl max-[1200px]:text-2xl font-bold text-[#7AD06D] hover:shadow-md hover:shadow-[#7AD06D]' target='_blank' href="https://wa.me/5511940530360?text=Ol%C3%A1,%20fiquei%20interessado(a)%20em%20seu%20servi%C3%A7o!">
             ENTRE EM CONTATO
-            <img className='size-[100px] max-[1200px]:size-[50px] ml-5' src={contato} alt="" />
+            <img className='size-[100px] max-[1200px]:size-[50px] ml-5' src={contato} alt="Clique-para-contato" />
           </a>
         </div>
         <div className='max-[1200px]:hidden'>

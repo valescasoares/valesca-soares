@@ -5,12 +5,12 @@ export default function AboutMe() {
     <div className="w-full h-auto pb-[200px]">
       <section className="flex justify-center items-center mt-[100px] max-[1200px]:hidden">
         <div>
-          <h3 className="text-4xl text-center">
+          <h1 className="text-4xl text-center">
             Olá, sou <strong className="text-5xl">Valesca Soares</strong>
-          </h3>
-          <h1 className="text-9xl font-bold text-[#686C53] drop-shadow-2xl">
-            Psicóloga
           </h1>
+          <h2 className="text-9xl font-bold text-[#686C53] drop-shadow-2xl">
+            Psicóloga
+          </h2>
           <div className="w-full h-[5px] mt-6 bg-[#00B89F]"></div>
           <p className="w-[600px] text-justify text-3xl my-5">
             Sou psicóloga, casada e mãe de dois filhos. Minha história pessoal e
@@ -30,9 +30,9 @@ export default function AboutMe() {
           <div className="w-full h-[400px] bg-[#686C53] rounded-br-[100px] rounded-tl-[100px] mt-[-410px]"></div>
         </div>
         <div className="mt-11">
-          <h3 className="text-2xl text-center">
+          <h1 className="text-2xl text-center">
             Olá, sou <strong className="text-3xl">Valesca Soares</strong>
-          </h3>
+          </h1>
           <h1 className="text-7xl font-bold text-center text-[#686C53] drop-shadow-2xl">
             Psicóloga
           </h1>
@@ -45,8 +45,8 @@ export default function AboutMe() {
           </p>
         </div>
       </section>
-      <div className="px-[220px] text-justify max-[1200px]:px-6">
-        <p className="text-3xl mt-5 max-[1200px]:text-2xl">
+      <div className="w-full flex justify-center text-justify max-[1200px]:px-6">
+        <p className="w-[1000px] text-3xl mt-5 max-[1200px]:text-2xl">
           Como terapeuta de casais, vejo diariamente que um relacionamento feliz
           não é aquele sem conflitos ou problemas, mas sim aquele em que ambos
           os parceiros escolhem, dia após dia, lutar para estarem juntos. Um
