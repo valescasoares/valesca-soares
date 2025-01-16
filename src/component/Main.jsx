@@ -5,7 +5,7 @@ export default function Main({ categorias }) {
         {categorias.map((categoria) => (
           <div className="mb-[40px] flex max-[700px]:flex-col">
             <img
-              className="size-[250px] max-[700px]:size-auto rounded-s-2xl max-[700px]:rounded-t-2xl"
+              className="size-auto rounded-s-2xl max-[700px]:rounded-t-2xl"
               src={categoria.image}
               alt={categoria.title}
             />

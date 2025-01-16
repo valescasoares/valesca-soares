@@ -1,5 +1,6 @@
 import './index.css'
 import Foto1 from './assets/foto1.png'
+import contatoMobile from './assets/CONTATOMOBILE.png'
 import contato from './assets/CONTATO.png'
 import Main from './component/Main.jsx'
 import FeedBacks from './component/FeedBacks.jsx'
@@ -80,16 +81,16 @@ function App() {
           <img className='w-[380px] h-auto mt-[-500px] max-[450px]:mt-[-420px]' src={Foto1} alt="Valesca-Soares" />
         </div>
         <div className='hidden max-[1200px]:block text-white'>
-          <h1 className='max-[1200px]:w-screen font-extrabold text-3xl'>
+          <h1 className='font-extrabold text-3xl'>
             Quer fortalecer seu relacionamento e evitar que os problemas se
             agravem?
           </h1>
-          <p className='w-[750px] max-[700px]:w-screen text-2xl mb-10'>
+          <p className='text-2xl mb-10'>
             Através de ferramentas e estratégias eficazes, podemos te ajudar a construir uma relação mais sólida e feliz.
           </p>
           <a className='bg-[#434638] py-1 flex justify-center items-center rounded-[100px] text-2xl font-bold text-[#7AD06D] hover:shadow-md hover:shadow-[#7AD06D]' target='_blank' href="https://wa.me/5511940530360?text=Ol%C3%A1,%20fiquei%20interessado(a)%20em%20seu%20servi%C3%A7o!">
             ENTRE EM CONTATO
-            <img className='size-[50px]' src={contato} alt="Clique-para-contato" />
+            <img className='size-[50px]' src={contatoMobile} alt="Clique-para-contato" />
           </a>
         </div>
         <div className='max-[1200px]:hidden pt-[200px] max-[1200px]:px-2 max-[1200px]:w-screen pl-10 text-white'>
